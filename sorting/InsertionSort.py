@@ -1,14 +1,4 @@
-__author__ = 'alsodeep'
-
-
-def main():
-    # a = [5,2,4,6,1,3]
-    # a = [31,41,59,26,41,58]
-    a = [1, 0, 1]
-    b = [1, 0, 1]
-    c = binarry_addition(a, b)
-    # insertion_sort_reverse(a)
-    print c
+__author__ = 'Sergei Lysenko'
 
 
 def insertion_sort(array):
@@ -30,9 +20,10 @@ def insertion_sort_reverse(a):
             a[j + 1] = a[j]
             j = j - 1
         a[j + 1] = key
+    return a
 
 
-def binarry_addition(a, b):
+def binary_addition(a, b):
     n = len(a)
     c = [0] * (n + 1)
     i = 0
@@ -45,7 +36,3 @@ def binarry_addition(a, b):
                 c[i] = 0
         i = i + 1
     return c
-
-
-if __name__ == "__main__":
-    main()

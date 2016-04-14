@@ -1,1 +1,1 @@
-__author__ = 'alsodeep'
+__author__ = 'Sergei Lysenko'
